@@ -1,0 +1,21 @@
+{
+  "name": "learn-docker-container",
+  "version": "1.0.0",
+  "keywords": [
+    "example",
+    "node",
+    "terraform"
+  ],
+  "license": "ISC",
+  "author": "Jesús Ángel Rodríguez Martínez",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start:development": "nodemon src/app.js",
+    "start:production": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
